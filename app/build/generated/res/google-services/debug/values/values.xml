@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">702319219689-7q1dto2uc7l4si6seapj7vf19nmntnkr.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://faceswapplus.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">702319219689</string>
+    <string name="google_api_key" translatable="false">AIzaSyAjUkJlJWUCT-_HgiMTiIHChDHl5i39BGQ</string>
+    <string name="google_app_id" translatable="false">1:702319219689:android:d9f1ad8c54494983</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAjUkJlJWUCT-_HgiMTiIHChDHl5i39BGQ</string>
+    <string name="google_storage_bucket" translatable="false">faceswapplus.appspot.com</string>
+</resources>

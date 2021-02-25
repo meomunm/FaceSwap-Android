@@ -1,0 +1,42 @@
+com/alex/faceswap/SwapActivity.java
+ com.alex.faceswap.SwapActivity
+ com.alex.faceswap.SwapActivity$1
+ com.alex.faceswap.SwapActivity$2
+ com.alex.faceswap.SwapActivity$3
+ com.alex.faceswap.SwapActivity$4
+ com.alex.faceswap.SwapActivity$5
+ com.alex.faceswap.SwapActivity$6
+ com.alex.faceswap.SwapActivity$7
+ com.alex.faceswap.SwapActivity$SectionsPagerAdapter
+com/alex/faceswap/HelpResultActivity.java
+ com.alex.faceswap.HelpResultActivity
+com/alex/faceswap/HelpSwapActivity.java
+ com.alex.faceswap.HelpSwapActivity
+com/alex/faceswap/ImageUtils.java
+ com.alex.faceswap.ImageUtils
+com/alex/faceswap/PointF.java
+ com.alex.faceswap.PointF
+com/alex/faceswap/GlobalBitmap.java
+ com.alex.faceswap.GlobalBitmap
+com/alex/faceswap/AdMobObj.java
+ com.alex.faceswap.AdMobObj
+ com.alex.faceswap.AdMobObj$1
+com/alex/faceswap/FaceSwapFragments.java
+ com.alex.faceswap.FaceSwapFragments
+ com.alex.faceswap.FaceSwapFragments$FaceFragmentA
+ com.alex.faceswap.FaceSwapFragments$FaceFragmentB
+com/alex/faceswap/ResultActivity.java
+ com.alex.faceswap.ResultActivity
+ com.alex.faceswap.ResultActivity$1
+com/alex/faceswap/BuildConfig.java
+ com.alex.faceswap.BuildConfig
+com/android/vending/billing/IInAppBillingService.java
+ com.android.vending.billing.IInAppBillingService
+ com.android.vending.billing.IInAppBillingService$Default
+ com.android.vending.billing.IInAppBillingService$Stub
+ com.android.vending.billing.IInAppBillingService$Stub$Proxy
+com/alex/faceswap/FaceSwap.java
+ com.alex.faceswap.FaceSwap
+ com.alex.faceswap.FaceSwap$1
+ com.alex.faceswap.FaceSwap$FaceComparator
+ com.alex.faceswap.FaceSwap$fsStatus

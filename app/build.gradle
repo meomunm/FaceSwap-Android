@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion '25.0.2'
+    compileSdkVersion 30
+    buildToolsVersion '29.0.2'
 
     defaultConfig {
         applicationId "com.alex.faceswap"
         minSdkVersion 21
-        targetSdkVersion 26
+        targetSdkVersion 30
         versionCode 104
         versionName "${rootProject.ext.releaseVersionName}"
         multiDexEnabled true
@@ -54,15 +54,17 @@ buildscript {
     repositories {
         mavenCentral()
         jcenter()
+        google()
     }
     dependencies {
         classpath 'com.google.gms:google-services:3.1.1'
-        classpath 'com.android.tools.build:gradle:2.3.3'
-        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
+        classpath 'com.android.tools.build:gradle:4.1.1'
+//        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
     }
 }
 
 repositories {
+    google()
     mavenCentral()
     mavenLocal()
     maven {
@@ -71,22 +73,22 @@ repositories {
     }
 }
 
-apply plugin: 'com.neenbedankt.android-apt'
+//apply plugin: 'com.neenbedankt.android-apt'
 def AAVersion = '4.0.0'
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    apt "org.androidannotations:androidannotations:$AAVersion"
-    compile "org.androidannotations:androidannotations-api:$AAVersion"
-    compile project(':openCVLibrary310')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    annotationProcessor "org.androidannotations:androidannotations:$AAVersion"
+    implementation "org.androidannotations:androidannotations-api:$AAVersion"
+    implementation project(':openCVLibrary310')
 
     //noinspection GradleCompatible
-    compile 'com.android.support:design:25.3.1'
-    compile 'com.google.android.gms:play-services:11.0.4'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.google.firebase:firebase-appindexing:11.0.4'
-    compile 'com.google.firebase:firebase-invites:11.0.4'
-    compile 'com.android.support:multidex:1.0.1'
+    implementation 'com.android.support:design:25.3.1'
+    implementation 'com.google.android.gms:play-services:11.0.4'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.google.firebase:firebase-appindexing:11.0.4'
+    implementation 'com.google.firebase:firebase-invites:11.0.4'
+    implementation 'com.android.support:multidex:1.0.1'
     //testCompile 'junit:junit:4.12'
     //testCompile 'org.mockito:mockito-core:1.10.19'
 }

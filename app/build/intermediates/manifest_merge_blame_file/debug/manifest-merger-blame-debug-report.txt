@@ -1,0 +1,461 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.alex.faceswap"
+4    android:versionCode="60000104"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+7-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:6:5-51
+8        android:minSdkVersion="21"
+8-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:6:5-51
+9        android:targetSdkVersion="30" />
+9-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:6:5-51
+10
+11    <!-- CAMERA -->
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:9:5-64
+12-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:9:22-62
+13
+14    <!--
+15        <uses-feature
+16        android:name="android.hardware.camera"
+17        android:required="true"/>
+18    -->
+19
+20    <uses-feature android:name="android.hardware.camera.autofocus" />
+20-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:15:5-69
+20-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:15:19-67
+21
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:17:5-79
+22-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:17:22-77
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:18:5-80
+23-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:18:22-78
+24    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+24-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:19:5-77
+24-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:19:22-75
+25    <uses-permission android:name="com.android.vending.BILLING" />
+25-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:20:5-66
+25-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:20:22-64
+26
+27    <meta-data
+27-->[com.android.support:design:25.3.1] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\9fb3db3f97384ff5370810aa2fb8154a\design-25.3.1\AndroidManifest.xml:25:5-27:34
+28        android:name="android.support.VERSION"
+28-->[com.android.support:design:25.3.1] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\9fb3db3f97384ff5370810aa2fb8154a\design-25.3.1\AndroidManifest.xml:26:9-47
+29        android:value="25.3.1" />
+29-->[com.android.support:design:25.3.1] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\9fb3db3f97384ff5370810aa2fb8154a\design-25.3.1\AndroidManifest.xml:27:9-31
+30
+31    <uses-permission android:name="android.permission.INTERNET" />
+31-->[com.google.firebase:firebase-crash:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\8e76df9febf61be047a0c37f75473be0\firebase-crash-11.0.4\AndroidManifest.xml:18:5-66
+31-->[com.google.firebase:firebase-crash:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\8e76df9febf61be047a0c37f75473be0\firebase-crash-11.0.4\AndroidManifest.xml:18:22-64
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->[com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\5ae1059efb35f5e02fe8ee91529fc9a5\play-services-tagmanager-api-11.0.4\AndroidManifest.xml:21:5-78
+32-->[com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\5ae1059efb35f5e02fe8ee91529fc9a5\play-services-tagmanager-api-11.0.4\AndroidManifest.xml:21:22-76
+33    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions required for GCM -->
+33-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:22:5-67
+33-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:22:22-65
+34    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+34-->[com.google.android.gms:play-services-gcm:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\91c066ed29a5785bcd98046a30f0073f\play-services-gcm-11.0.4\AndroidManifest.xml:20:5-81
+34-->[com.google.android.gms:play-services-gcm:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\91c066ed29a5785bcd98046a30f0073f\play-services-gcm-11.0.4\AndroidManifest.xml:20:22-79
+35
+36    <uses-feature
+36-->[com.google.android.gms:play-services-maps:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\2118c42ae32f4379492987905c52a268\play-services-maps-11.0.4\AndroidManifest.xml:21:5-77
+37        android:glEsVersion="0x00020000"
+37-->[com.google.android.gms:play-services-maps:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\2118c42ae32f4379492987905c52a268\play-services-maps-11.0.4\AndroidManifest.xml:21:19-51
+38        android:required="true" />
+38-->[com.google.android.gms:play-services-maps:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\2118c42ae32f4379492987905c52a268\play-services-maps-11.0.4\AndroidManifest.xml:21:52-75
+39
+40    <permission
+40-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:24:5-109
+41        android:name="com.alex.faceswap.permission.C2D_MESSAGE"
+41-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:24:17-71
+42        android:protectionLevel="signature" />
+42-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:24:72-107
+43
+44    <uses-permission android:name="com.alex.faceswap.permission.C2D_MESSAGE" />
+44-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:26:5-78
+44-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:26:22-76
+45
+46    <application
+46-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:22:5-101:19
+47        android:allowBackup="true"
+47-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:23:9-35
+48        android:debuggable="true"
+49        android:extractNativeLibs="false"
+49-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:24:9-42
+50        android:icon="@mipmap/ic_launcher_round"
+50-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:25:9-49
+51        android:label="@string/app_name"
+51-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:26:9-41
+52        android:roundIcon="@mipmap/ic_launcher_round"
+52-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:27:9-54
+53        android:supportsRtl="true"
+53-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:28:9-35
+54        android:testOnly="true"
+55        android:theme="@style/AppTheme" >
+55-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:29:9-40
+56
+57        <!-- ############################################################# -->
+58        <provider
+59            android:name="android.support.v4.content.FileProvider"
+59-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:33:13-67
+60            android:authorities="com.alex.faceswap.provider"
+60-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:34:13-60
+61            android:exported="false"
+61-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:35:13-37
+62            android:grantUriPermissions="true" >
+62-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:36:13-47
+63            <meta-data
+63-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:37:13-39:57
+64                android:name="android.support.FILE_PROVIDER_PATHS"
+64-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:38:17-67
+65                android:resource="@xml/provider_paths" />
+65-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:39:17-55
+66        </provider>
+67        <!-- ############################################################# -->
+68        <provider
+69            android:name="android.support.v4.content.FileProvider"
+69-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:33:13-67
+70            android:authorities="com.alex.faceswap.provider"
+70-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:34:13-60
+71            android:exported="false"
+71-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:35:13-37
+72            android:grantUriPermissions="true" >
+72-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:36:13-47
+73            <meta-data
+73-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:37:13-39:57
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:38:17-67
+75                android:resource="@xml/provider_paths" />
+75-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:39:17-55
+76        </provider>
+77        <!-- ############################################################# -->
+78        <activity
+78-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:52:9-77:20
+79            android:name="com.alex.faceswap.SwapActivity"
+79-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:53:13-41
+80            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+80-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:54:13-91
+81            android:immersive="false"
+81-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:55:13-38
+82            android:label="@string/app_name"
+82-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:56:13-45
+83            android:launchMode="singleTask" >
+83-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:57:13-44
+84            <intent-filter>
+84-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:58:13-62:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:59:17-68
+85-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:59:25-66
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:61:17-76
+87-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:61:27-74
+88            </intent-filter>
+89            <intent-filter>
+89-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:63:13-69:29
+90                <action android:name="android.intent.action.SEND" />
+90-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:64:17-68
+90-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:64:25-66
+91
+92                <category android:name="android.intent.category.DEFAULT" />
+92-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:66:17-75
+92-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:66:27-73
+93
+94                <data android:mimeType="image/*" />
+94-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:68:17-51
+94-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:68:23-49
+95            </intent-filter>
+96            <intent-filter>
+96-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:70:13-76:29
+97                <action android:name="android.intent.action.SEND_MULTIPLE" />
+97-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:71:17-77
+97-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:71:25-75
+98
+99                <category android:name="android.intent.category.DEFAULT" />
+99-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:66:17-75
+99-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:66:27-73
+100
+101                <data android:mimeType="image/*" />
+101-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:68:17-51
+101-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:68:23-49
+102            </intent-filter>
+103        </activity>
+104        <!-- ############################################################# -->
+105        <activity
+105-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:79:9-87:20
+106            android:name="com.alex.faceswap.ResultActivity"
+106-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:80:13-43
+107            android:label="@string/app_name"
+107-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:81:13-45
+108            android:launchMode="singleTask"
+108-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:82:13-44
+109            android:parentActivityName="com.alex.faceswap.SwapActivity" >
+109-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:83:13-55
+110            <meta-data
+110-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:84:13-86:48
+111                android:name="android.support.PARENT_ACTIVITY"
+111-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:85:17-63
+112                android:value=".SwapActivity" />
+112-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:86:17-46
+113        </activity>
+114        <!-- ############################################################# -->
+115        <activity
+115-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:89:9-93:58
+116            android:name="com.alex.faceswap.HelpSwapActivity"
+116-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:90:13-45
+117            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+117-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:92:13-91
+118            android:label="@string/app_name"
+118-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:91:13-45
+119            android:theme="@style/AppTheme.NoActionBar" />
+119-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:93:13-56
+120        <!-- ############################################################# -->
+121        <activity
+121-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:95:9-99:58
+122            android:name="com.alex.faceswap.HelpResultActivity"
+122-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:96:13-47
+123            android:label="@string/app_name"
+123-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:97:13-45
+124            android:screenOrientation="portrait"
+124-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:98:13-49
+125            android:theme="@style/AppTheme.NoActionBar" />
+125-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:99:13-56
+126        <!-- ############################################################# -->
+127        <service
+127-->[com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\5ae1059efb35f5e02fe8ee91529fc9a5\play-services-tagmanager-api-11.0.4\AndroidManifest.xml:24:9-134
+128            android:name="com.google.android.gms.tagmanager.TagManagerService"
+128-->[com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\5ae1059efb35f5e02fe8ee91529fc9a5\play-services-tagmanager-api-11.0.4\AndroidManifest.xml:24:18-84
+129            android:enabled="true"
+129-->[com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\5ae1059efb35f5e02fe8ee91529fc9a5\play-services-tagmanager-api-11.0.4\AndroidManifest.xml:24:110-132
+130            android:exported="false" />
+130-->[com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\5ae1059efb35f5e02fe8ee91529fc9a5\play-services-tagmanager-api-11.0.4\AndroidManifest.xml:24:85-109
+131
+132        <activity
+132-->[com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\5ae1059efb35f5e02fe8ee91529fc9a5\play-services-tagmanager-api-11.0.4\AndroidManifest.xml:25:9-32:20
+133            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+133-->[com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\5ae1059efb35f5e02fe8ee91529fc9a5\play-services-tagmanager-api-11.0.4\AndroidManifest.xml:25:19-93
+134            android:exported="true"
+134-->[com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\5ae1059efb35f5e02fe8ee91529fc9a5\play-services-tagmanager-api-11.0.4\AndroidManifest.xml:25:94-117
+135            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+135-->[com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\5ae1059efb35f5e02fe8ee91529fc9a5\play-services-tagmanager-api-11.0.4\AndroidManifest.xml:25:118-142
+136            <intent-filter>
+136-->[com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\5ae1059efb35f5e02fe8ee91529fc9a5\play-services-tagmanager-api-11.0.4\AndroidManifest.xml:26:13-31:29
+137                <data android:scheme="tagmanager.c.com.alex.faceswap" />
+137-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:68:17-51
+138
+139                <action android:name="android.intent.action.VIEW" />
+139-->[com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\5ae1059efb35f5e02fe8ee91529fc9a5\play-services-tagmanager-api-11.0.4\AndroidManifest.xml:28:17-68
+139-->[com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\5ae1059efb35f5e02fe8ee91529fc9a5\play-services-tagmanager-api-11.0.4\AndroidManifest.xml:28:25-66
+140
+141                <category android:name="android.intent.category.DEFAULT" />
+141-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:66:17-75
+141-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:66:27-73
+142                <category android:name="android.intent.category.BROWSABLE" />
+142-->[com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\5ae1059efb35f5e02fe8ee91529fc9a5\play-services-tagmanager-api-11.0.4\AndroidManifest.xml:30:17-77
+142-->[com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\5ae1059efb35f5e02fe8ee91529fc9a5\play-services-tagmanager-api-11.0.4\AndroidManifest.xml:30:27-75
+143            </intent-filter>
+144        </activity>
+145
+146        <receiver
+146-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:25:7-26:18
+147            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+147-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:25:17-89
+148            android:enabled="true"
+148-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:25:90-112
+149            android:exported="false" >
+149-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:25:113-137
+150        </receiver>
+151        <receiver
+151-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:27:7-31:18
+152            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+152-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:27:17-104
+153            android:enabled="true"
+153-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:27:162-184
+154            android:exported="true"
+154-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:27:185-208
+155            android:permission="android.permission.INSTALL_PACKAGES" >
+155-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:27:105-161
+156            <intent-filter>
+156-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:28:11-30:27
+157                <action android:name="com.android.vending.INSTALL_REFERRER" />
+157-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:29:15-76
+157-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:29:23-74
+158            </intent-filter>
+159        </receiver>
+160
+161        <service
+161-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:32:7-137
+162            android:name="com.google.android.gms.measurement.AppMeasurementService"
+162-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:32:16-87
+163            android:enabled="true"
+163-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:32:88-110
+164            android:exported="false" />
+164-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:32:111-135
+165        <service
+165-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:33:7-197
+166            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+166-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:33:16-90
+167            android:enabled="true"
+167-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:33:148-170
+168            android:exported="false"
+168-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:33:171-195
+169            android:permission="android.permission.BIND_JOB_SERVICE" />
+169-->[com.google.firebase:firebase-analytics:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\7146594c842c71240489b0d4e0c9bed3\firebase-analytics-11.0.4\AndroidManifest.xml:33:91-147
+170
+171        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+171-->[com.google.android.gms:play-services-cast-framework:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\ee50290f912f5ade7e5d6b71dc3a816b\play-services-cast-framework-11.0.4\AndroidManifest.xml:5:9-99
+171-->[com.google.android.gms:play-services-cast-framework:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\ee50290f912f5ade7e5d6b71dc3a816b\play-services-cast-framework-11.0.4\AndroidManifest.xml:5:19-97
+172
+173        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+173-->[com.google.android.gms:play-services-cast-framework:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\ee50290f912f5ade7e5d6b71dc3a816b\play-services-cast-framework-11.0.4\AndroidManifest.xml:6:9-103
+173-->[com.google.android.gms:play-services-cast-framework:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\ee50290f912f5ade7e5d6b71dc3a816b\play-services-cast-framework-11.0.4\AndroidManifest.xml:6:18-101
+174        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+174-->[com.google.android.gms:play-services-cast-framework:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\ee50290f912f5ade7e5d6b71dc3a816b\play-services-cast-framework-11.0.4\AndroidManifest.xml:7:9-92
+174-->[com.google.android.gms:play-services-cast-framework:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\ee50290f912f5ade7e5d6b71dc3a816b\play-services-cast-framework-11.0.4\AndroidManifest.xml:7:18-90
+175        <activity
+175-->[com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\35541df067c5e0ddb6c4673d4c625e8a\play-services-ads-lite-11.0.4\AndroidManifest.xml:25:9-232
+176            android:name="com.google.android.gms.ads.AdActivity"
+176-->[com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\35541df067c5e0ddb6c4673d4c625e8a\play-services-ads-lite-11.0.4\AndroidManifest.xml:25:19-71
+177            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+177-->[com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\35541df067c5e0ddb6c4673d4c625e8a\play-services-ads-lite-11.0.4\AndroidManifest.xml:25:72-181
+178            android:theme="@android:style/Theme.Translucent" />
+178-->[com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\35541df067c5e0ddb6c4673d4c625e8a\play-services-ads-lite-11.0.4\AndroidManifest.xml:25:182-230
+179        <activity
+179-->[com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\70a3771e855fa27edae57bb7edbbb466\play-services-appinvite-11.0.4\AndroidManifest.xml:20:9-25:20
+180            android:name="com.google.android.gms.appinvite.PreviewActivity"
+180-->[com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\70a3771e855fa27edae57bb7edbbb466\play-services-appinvite-11.0.4\AndroidManifest.xml:20:19-50
+181            android:exported="true"
+181-->[com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\70a3771e855fa27edae57bb7edbbb466\play-services-appinvite-11.0.4\AndroidManifest.xml:20:51-74
+182            android:theme="@style/Theme.AppInvite.Preview" >
+182-->[com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\70a3771e855fa27edae57bb7edbbb466\play-services-appinvite-11.0.4\AndroidManifest.xml:20:75-121
+183            <intent-filter>
+183-->[com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\70a3771e855fa27edae57bb7edbbb466\play-services-appinvite-11.0.4\AndroidManifest.xml:21:13-24:29
+184                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+184-->[com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\70a3771e855fa27edae57bb7edbbb466\play-services-appinvite-11.0.4\AndroidManifest.xml:22:17-89
+184-->[com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\70a3771e855fa27edae57bb7edbbb466\play-services-appinvite-11.0.4\AndroidManifest.xml:22:25-87
+185
+186                <category android:name="android.intent.category.DEFAULT" />
+186-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:66:17-75
+186-->C:\Users\hungtg\Desktop\grow-will-demo\FaceSwap-Android\app\src\main\AndroidManifest.xml:66:27-73
+187            </intent-filter>
+188        </activity>
+189        <activity
+189-->[com.google.android.gms:play-services-auth:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\329de1d704532b1baf340fb6e106ac50\play-services-auth-11.0.4\AndroidManifest.xml:20:9-189
+190            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+190-->[com.google.android.gms:play-services-auth:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\329de1d704532b1baf340fb6e106ac50\play-services-auth-11.0.4\AndroidManifest.xml:20:19-68
+191            android:excludeFromRecents="true"
+191-->[com.google.android.gms:play-services-auth:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\329de1d704532b1baf340fb6e106ac50\play-services-auth-11.0.4\AndroidManifest.xml:20:129-162
+192            android:exported="false"
+192-->[com.google.android.gms:play-services-auth:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\329de1d704532b1baf340fb6e106ac50\play-services-auth-11.0.4\AndroidManifest.xml:20:163-187
+193            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+193-->[com.google.android.gms:play-services-auth:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\329de1d704532b1baf340fb6e106ac50\play-services-auth-11.0.4\AndroidManifest.xml:20:69-128
+194        <!--
+195Service handling Google Sign-In user revocation. For apps that do not integrate with
+196            Google Sign-In, this service will never be started.
+197        -->
+198        <service
+198-->[com.google.android.gms:play-services-auth:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\329de1d704532b1baf340fb6e106ac50\play-services-auth-11.0.4\AndroidManifest.xml:24:9-184
+199            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+199-->[com.google.android.gms:play-services-auth:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\329de1d704532b1baf340fb6e106ac50\play-services-auth-11.0.4\AndroidManifest.xml:24:18-63
+200            android:exported="true"
+200-->[com.google.android.gms:play-services-auth:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\329de1d704532b1baf340fb6e106ac50\play-services-auth-11.0.4\AndroidManifest.xml:24:64-87
+201            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+201-->[com.google.android.gms:play-services-auth:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\329de1d704532b1baf340fb6e106ac50\play-services-auth-11.0.4\AndroidManifest.xml:24:88-182
+202
+203        <activity
+203-->[com.google.android.gms:play-services-base:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\cccd76d21950481e3766e0fa8e56b8ee\play-services-base-11.0.4\AndroidManifest.xml:19:9-172
+204            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+204-->[com.google.android.gms:play-services-base:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\cccd76d21950481e3766e0fa8e56b8ee\play-services-base-11.0.4\AndroidManifest.xml:19:19-85
+205            android:exported="false"
+205-->[com.google.android.gms:play-services-base:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\cccd76d21950481e3766e0fa8e56b8ee\play-services-base-11.0.4\AndroidManifest.xml:19:146-170
+206            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+206-->[com.google.android.gms:play-services-base:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\cccd76d21950481e3766e0fa8e56b8ee\play-services-base-11.0.4\AndroidManifest.xml:19:86-145
+207        <!--
+208 FirebaseMessagingService performs security checks at runtime,
+209             no need for explicit permissions despite exported="true"
+210        -->
+211        <service
+211-->[com.google.firebase:firebase-messaging:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\ed95ace5c33a808d882e2f998dbc45c7\firebase-messaging-11.0.4\AndroidManifest.xml:23:9-27:19
+212            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+212-->[com.google.firebase:firebase-messaging:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\ed95ace5c33a808d882e2f998dbc45c7\firebase-messaging-11.0.4\AndroidManifest.xml:23:18-87
+213            android:exported="true" >
+213-->[com.google.firebase:firebase-messaging:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\ed95ace5c33a808d882e2f998dbc45c7\firebase-messaging-11.0.4\AndroidManifest.xml:23:88-111
+214            <intent-filter android:priority="-500" >
+214-->[com.google.firebase:firebase-messaging:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\ed95ace5c33a808d882e2f998dbc45c7\firebase-messaging-11.0.4\AndroidManifest.xml:24:13-26:29
+214-->[com.google.firebase:firebase-messaging:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\ed95ace5c33a808d882e2f998dbc45c7\firebase-messaging-11.0.4\AndroidManifest.xml:24:28-51
+215                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+215-->[com.google.firebase:firebase-messaging:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\ed95ace5c33a808d882e2f998dbc45c7\firebase-messaging-11.0.4\AndroidManifest.xml:25:17-77
+215-->[com.google.firebase:firebase-messaging:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\ed95ace5c33a808d882e2f998dbc45c7\firebase-messaging-11.0.4\AndroidManifest.xml:25:25-75
+216            </intent-filter>
+217        </service>
+218
+219        <receiver
+219-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:30:9-35:20
+220            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+220-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:30:19-84
+221            android:exported="true"
+221-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:30:85-108
+222            android:permission="com.google.android.c2dm.permission.SEND" >
+222-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:30:109-169
+223            <intent-filter>
+223-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:31:13-34:29
+224                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+224-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:32:17-80
+224-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:32:25-78
+225
+226                <category android:name="com.alex.faceswap" />
+226-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:33:17-60
+226-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:33:27-58
+227            </intent-filter>
+228        </receiver>
+229        <!--
+230 Internal (not exported) receiver used by the app to start its own exported services
+231             without risk of being spoofed.
+232        -->
+233        <receiver
+233-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:39:9-119
+234            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+234-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:39:19-92
+235            android:exported="false" />
+235-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:39:93-117
+236        <!--
+237 FirebaseInstanceIdService performs security checks at runtime,
+238             no need for explicit permissions despite exported="true"
+239        -->
+240        <service
+240-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:43:9-47:19
+241            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+241-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:43:18-82
+242            android:exported="true" >
+242-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:43:83-106
+243            <intent-filter android:priority="-500" >
+243-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:44:13-46:29
+243-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:44:28-51
+244                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+244-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:45:17-79
+244-->[com.google.firebase:firebase-iid:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\33ebc9d6ede8c1ae80d4d8f809eeec41\firebase-iid-11.0.4\AndroidManifest.xml:45:25-77
+245            </intent-filter>
+246        </service>
+247
+248        <provider
+248-->[com.google.firebase:firebase-common:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\a832f03e5a3c786f249f77add80c61eb\firebase-common-11.0.4\AndroidManifest.xml:6:9-194
+249            android:name="com.google.firebase.provider.FirebaseInitProvider"
+249-->[com.google.firebase:firebase-common:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\a832f03e5a3c786f249f77add80c61eb\firebase-common-11.0.4\AndroidManifest.xml:6:79-143
+250            android:authorities="com.alex.faceswap.firebaseinitprovider"
+250-->[com.google.firebase:firebase-common:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\a832f03e5a3c786f249f77add80c61eb\firebase-common-11.0.4\AndroidManifest.xml:6:19-78
+251            android:exported="false"
+251-->[com.google.firebase:firebase-common:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\a832f03e5a3c786f249f77add80c61eb\firebase-common-11.0.4\AndroidManifest.xml:6:144-168
+252            android:initOrder="100" />
+252-->[com.google.firebase:firebase-common:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\a832f03e5a3c786f249f77add80c61eb\firebase-common-11.0.4\AndroidManifest.xml:6:169-192
+253
+254        <meta-data
+254-->[com.google.android.gms:play-services-basement:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\92a7a4b73c43a609e2d3b0d85a46377d\play-services-basement-11.0.4\AndroidManifest.xml:20:9-121
+255            android:name="com.google.android.gms.version"
+255-->[com.google.android.gms:play-services-basement:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\92a7a4b73c43a609e2d3b0d85a46377d\play-services-basement-11.0.4\AndroidManifest.xml:20:20-65
+256            android:value="@integer/google_play_services_version" />
+256-->[com.google.android.gms:play-services-basement:11.0.4] C:\Users\hungtg\.gradle\caches\transforms-2\files-2.1\92a7a4b73c43a609e2d3b0d85a46377d\play-services-basement-11.0.4\AndroidManifest.xml:20:66-119
+257    </application>
+258
+259</manifest>

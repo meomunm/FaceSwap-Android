@@ -5,6 +5,7 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.util.Log;
 import android.util.SparseArray;
 
 import com.google.android.gms.vision.Frame;
@@ -57,8 +58,13 @@ class FaceSwap {
     /* Load Native Library */
     static {
         //noinspection StatementWithEmptyBody
-        if (!OpenCVLoader.initDebug()) ;
-        else System.loadLibrary("nativefaceswap");
+        if (!OpenCVLoader.initDebug()) {
+            Log.e("HungTG", "don't init success");
+        }
+        else {
+            System.loadLibrary("nativefaceswap");
+            Log.e("HungTG", "init success");
+        }
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////

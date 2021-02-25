@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw320dp-xxhdpi-v13\\values-sw320dp-xxhdpi-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\values-sw320dp-xxhdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "9,11,12,13,10,3,5,6,1,2,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "376,484,542,607,430,118,221,278,17,69,170",
+                        "endColumns": "52,56,63,54,52,50,55,61,50,47,49",
+                        "endOffsets": "424,536,601,657,478,164,272,335,63,112,215"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,165,229,284,337,388,444,506,557,605",
+                        "endColumns": "52,56,63,54,52,50,55,61,50,47,49",
+                        "endOffsets": "103,160,224,279,332,383,439,501,552,600,650"
+                    }
+                }
+            ]
+        }
+    ]
+}

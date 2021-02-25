@@ -31,6 +31,7 @@ class StaticHelper {
         }
         catch(UnsatisfiedLinkError e)
         {
+            e.printStackTrace();
             Log.e(TAG, "OpenCV error: Cannot load info library for OpenCV");
         }
 

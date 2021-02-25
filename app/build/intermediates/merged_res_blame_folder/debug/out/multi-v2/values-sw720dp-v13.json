@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\values-sw720dp\\dimens.xml",
+                    "from": {
+                        "startLines": "9,11,12,13,10,3,5,6,1,2,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "376,484,543,608,430,118,221,278,17,69,170",
+                        "endColumns": "52,57,63,54,52,50,55,61,50,47,49",
+                        "endOffsets": "424,537,602,658,478,164,272,335,63,112,215"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,166,230,285,338,389,445,507,558,606",
+                        "endColumns": "52,57,63,54,52,50,55,61,50,47,49",
+                        "endOffsets": "103,161,225,280,333,384,440,502,553,601,651"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hungtg\\.gradle\\caches\\transforms-2\\files-2.1\\01254ab9e31fb3687adf1552ef325a74\\mediarouter-v7-25.2.0\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,124",
+                        "endColumns": "68,68",
+                        "endOffsets": "119,188"
+                    },
+                    "to": {
+                        "startLines": "13,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "656,725",
+                        "endColumns": "68,68",
+                        "endOffsets": "720,789"
+                    }
+                }
+            ]
+        }
+    ]
+}

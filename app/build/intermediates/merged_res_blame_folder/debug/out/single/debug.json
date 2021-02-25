@@ -1,0 +1,210 @@
+[
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_tune_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_tune_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_adjust_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_adjust_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_swap.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\layout\\activity_swap.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_result.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\menu\\menu_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_looks_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_looks_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_camera_48dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_camera_48dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_selfie_swap.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\layout\\fragment_selfie_swap.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_filter_vintage_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_filter_vintage_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_help_outline_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_help_outline_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_empty_background.png.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_empty_background.png"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_share_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_edit_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_result_low_api.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\menu\\menu_result_low_api.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_help_result.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\layout\\activity_help_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_water_stamp.png.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\water_stamp.png"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_white.png.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_white.png"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_check_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_check_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_help_outline_pink_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_help_outline_pink_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_empty_background.png.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_empty_background.png"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit_white_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_edit_white_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_more_vert_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_more_vert_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_compare_arrows_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_compare_arrows_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar_activity_help_result.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\layout-ar\\activity_help_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_empty_background.png.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_empty_background.png"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_photo_place.png.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\photo_place.png"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_send_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_send_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_result.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\layout-land\\activity_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_rotate_90_degrees_ccw_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_rotate_90_degrees_ccw_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_clear_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_clear_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_brightness_high_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_brightness_high_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_empty_background.png.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_empty_background.png"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar_activity_help_swap.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\layout-ar\\activity_help_swap.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_people_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_people_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_photo_library_48dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_photo_library_48dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_result.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\layout\\activity_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_compare_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_compare_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar_activity_swap.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\layout-ar\\activity_swap.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_help_swap.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\layout\\activity_help_swap.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_white.png.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_white.png"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_save_24dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_save_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_white.png.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_white.png"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_swap.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\layout-land\\activity_swap.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_face_48dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_face_48dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_swap_horiz_48dp.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_swap_horiz_48dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_white.png.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_white.png"
+    },
+    {
+        "merged": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_contrast.xml.flat",
+        "source": "C:\\Users\\hungtg\\Desktop\\grow-will-demo\\FaceSwap-Android\\app\\src\\main\\res\\drawable\\ic_contrast.xml"
+    }
+]
